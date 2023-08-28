@@ -1,0 +1,27 @@
+@import "../../style/mixins/mixins";
+@import "../../style/variables/_colors";
+
+.Card {
+  @include c-flex;
+  max-width: 200px;
+  background-color: $main;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+  .info{
+    padding: 20px;
+    width: 100%;
+    h6,
+    span {
+      color: #fff;
+      margin: 10px;
+    }
+    h6{
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .btns {
+      width: 100%;
+      margin-top: 15px;
+      @include r-flex-between;
+    }
+  }
+}

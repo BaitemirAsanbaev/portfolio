@@ -1,0 +1,17 @@
+@import '../../../style/variables/_colors';
+
+.SimpleButton{
+  background-color: $main;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: .5s;
+  a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+  }
+}
+.SimpleButton:hover{
+  box-shadow: 6px 6px 0px $accent;
+  transform: translate(-3px, -3px);
+}

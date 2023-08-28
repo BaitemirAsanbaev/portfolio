@@ -1,0 +1,34 @@
+.ProjectCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    div:first-child{
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        background-size: cover;
+        top: 100px;
+        position: relative;
+        z-index: 1;
+    }
+    div:nth-child(2){
+        width: 250px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        position: relative;
+        z-index: 0;
+        padding-bottom: 25px;
+        height: 200px;
+        background-color: #0B0E14;
+        font-size: 32px;
+    }
+    div:nth-child(3){
+        width: 250px;
+        padding: 20px 40px;
+        text-align: center;
+        background-color: #39415F;
+        font-size: 24px;
+    }
+}

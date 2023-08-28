@@ -1,0 +1,17 @@
+@import './variables/_colors.scss';
+@import './variables/_fonts.scss';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $main;
+  font-family: 'Josefin Sans', sans-serif;;
+  transition: .5s;
+  color: #C4DBC0;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #262C3B
+}

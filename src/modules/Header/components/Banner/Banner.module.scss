@@ -1,0 +1,42 @@
+@keyframes banner {
+  from{
+    transform: translateY(-500px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+
+.Banner{
+  height: 40vh;
+  background-image: url(../../../../assets/images/ellipse.png);
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  animation: banner 1s;
+  h1{
+    font-size: 130px;
+    font-weight: 300;
+  }
+  h2{
+    font-size: 30px;
+    margin-top: 30px;
+  }
+}
+@media (max-width:600px) {
+  .Banner{
+    h1{
+      font-size: 80px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    p{
+      padding: 10px;
+    }
+  }
+}

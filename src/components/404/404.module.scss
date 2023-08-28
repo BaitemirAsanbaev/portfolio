@@ -1,0 +1,37 @@
+@import '../../style/variables/_colors';
+
+.GoBack{
+  margin: 200px 0;
+  display: flex;
+  justify-content: flex-end;
+  .links{
+    background-color: $main;
+    padding: 30px;
+    border: 10px solid $accent;
+    border-right: none;
+    h1, a{
+      color: #C4DBC0;
+      text-decoration: none;
+      display: inline-block;
+      margin: 30px 10px;
+    }
+    h1{
+      font-size: 64px;
+      font-weight: 400;
+    }
+    a{
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .GoBack{
+    .links{
+      h1{
+        font-size: 40px;
+      }
+    }
+  }
+}

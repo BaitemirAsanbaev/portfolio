@@ -1,0 +1,56 @@
+@keyframes banner {
+    from{
+      transform: translateY(500px) rotate(180deg);
+    }
+    to{
+      transform: translateY(0px) rotate(180deg);
+    }
+  }
+  
+  .Footer{
+    height: 40vh;
+    background-image: url(../../../assets/images/ellipse.png);
+    transform: rotate(180deg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    animation: banner 1s;
+    small{
+    color: #848484;
+    }
+    >*{
+        transform: rotate(180deg);
+        margin: 20px 0;
+    }
+    a{
+        color:#48CB55;
+    }
+    div:first-child{
+      img{
+        width: 80px;
+        cursor: pointer;
+      }
+    }
+    div{
+        display: flex;
+        max-width: 300px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 50px;
+            margin: 10px;
+            svg{
+            
+            fill: #48CB55;  
+            }
+        }
+        img:first-child{
+          transform: scale(1.15);
+        }
+    }
+  }
